@@ -1,4 +1,14 @@
 - commits:
+    - subject: Add bluetooth control support
+      hash: 1eb205ab28002832af7c4f5090d712dc762734c1
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+      author: AlexProgrammerDE
+  version: 3.0.0
+  date: 2020-07-02T11:21:33.757Z
+- commits:
     - subject: 'docs: add troubleshooting case'
       hash: d56f2a8c37cb6e1f707329c34c2e1035c975e351
       body: |
