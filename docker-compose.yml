@@ -57,6 +57,7 @@ services:
     privileged: true
     volumes:
       - snapcast:/var/cache/snapcast
+<<<<<<< HEAD
   upnp:
     build: ./upnp
     restart: on-failure 
@@ -65,6 +66,19 @@ services:
       - 49494:49494
     volumes:
       - snapcast:/var/cache/snapcast
+=======
+  snapcast-control:
+    build: ./snapcast-control
+    restart: on-failure 
+    network_mode: host 
+    privileged: true
+    ports:
+      - "5000:5000/udp"
+      - "5000:5000/tcp"
+    depends_on:
+      - snapcast-server
+
+>>>>>>> 86a169f... Add snapcast control
 volumes:
   spotifycache:
   bluetoothcache:
