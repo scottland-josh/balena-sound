@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add snapcast control
+      hash: d6d464d7e6f93c0ed55fe6610b66f00e08090795
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Alex <40795980+AlexProgrammerDE@users.noreply.github.com>
+        signed-off-by: Alex <40795980+AlexProgrammerDE@users.noreply.github.com>
+      author: Alex
+      nested: []
+  version: 2.5.0
+  date: 2020-07-21T19:22:27.911Z
+- commits:
     - subject: Adding clarification between config vars and env vars for users
       hash: 94f129c48a4178a4d4246c990488fa56c7d6d8e7
       body: >
