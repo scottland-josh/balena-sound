@@ -1,4 +1,18 @@
 - commits:
+    - subject: 'airplay, spotify, bluetooth: Device Variable/Name'
+      hash: 58a2066de4395bbc305f0976d85a8e85d5215012
+      body: >
+        Modified start.sh scripts for spotify, airplay, and bluetooth so that
+        all of them can have custom names through device variables. Changes are
+        minor and do not effect any of the device functionality.
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: David G
+      nested: []
+  version: 2.5.0
+  date: 2020-08-03T14:26:39.677Z
+- commits:
     - subject: Fix snapcast bad signature error in rpi0 devices
       hash: 3a6000498db555adc1e6c174674ffe503ca70fbd
       body: ''
