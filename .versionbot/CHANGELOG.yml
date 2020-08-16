@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add configuration option to support external audio
+      hash: 20902b136efea65d3484e26760a6b790e16a9dd9
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Connects-to: '#9'
+        connects-to: '#9'
+      author: cmw278
+      nested: []
+  version: 2.4.10
+  date: 2020-08-16T23:03:31.771Z
+- commits:
     - subject: Fix snapcast bad signature error in rpi0 devices
       hash: 3a6000498db555adc1e6c174674ffe503ca70fbd
       body: ''
